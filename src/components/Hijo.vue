@@ -4,20 +4,10 @@
     </div>
 </template>
 
-<script>
-export default {
-    name: 'Hijo',
-    data:function(){
-        return {
-            message: "Hola, soy el hijo"
-        }
-    },
-  
-}
+<script type="text/javascript" src='../scripts/hijo.js'>
+
 </script>
 
-<style scoped>
-    h1{
-        color:green
-    }
+<style src="../styles/css/hijo.css" scoped>
+    
 </style>

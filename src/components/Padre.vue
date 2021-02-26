@@ -5,21 +5,8 @@
     </div>
 </template>
 
-<script>
-import Hijo from './Hijo.vue'
+<script type="text/javascript" src='../scripts/padre.js'>
 
-export default {
-    name: 'Padre',
-    data:function(){
-        return {
-            message: "Hola, soy el padre"
-        }
-    },
-    components:{
-        Hijo
-    }
-  
-}
 </script>
 
 <style scoped>
